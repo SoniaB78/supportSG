@@ -1,0 +1,72 @@
+body{
+    background-image: url("/startPage/static/files_img/bg_img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Roboto, serif;
+    font-size: 19px;
+    color: #2b4b44;
+
+}
+
+header>img, header>em, footer>em{
+    display: block;
+    margin: auto;
+}
+
+h1, h2, h3, em{
+    text-align: center;
+    color: #1b524f;
+}
+
+nav{
+    background-color: #308b87;
+    text-align: center;
+    border: 2px solid #1b524f;
+    border-radius: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    margin: auto;
+    color: white;
+    padding: 1em 2.3em 1em 2.3em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #1b524f;
+    color: white;;
+}
+
+
+h1.my-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+}
+
+section{
+    width: 60%;
+    margin: auto;
+}
+
+.square_list{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+main section ul li a{
+    color: #1b524f;
+    text-decoration: none;
+}

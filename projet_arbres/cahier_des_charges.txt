@@ -1,0 +1,14 @@
+Les arbres de Paris
+
+https://opendata.paris.fr/explore/dataset/les-arbres/table/
+
+● Quels sont les arrondissements qui comptent le plus / le moins d’arbres ? 
+
+● Dans quelle zone trouve-t-on les arbres les plus haut / les moins haut ?
+
+● Quels types d'arbres sont plantés dans les arrondissements de Paris ?
+
+● Représentations graphiques : diagrammes circulaires et histogrammes. 
+
+● Cartographie des données par choix (forme, couleur, échelle…) + récupération des
+coordonnées via Google map et clef d’autorisation

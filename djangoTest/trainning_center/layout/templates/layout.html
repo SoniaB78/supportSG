@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="keywords" content="django html css">
+        <meta name="author" content="Sonia Bougamha">
+		<meta name="description" content="This website use djang, it been created to practise this framework.">
+
+		<!-- GOOGLEFONT -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+
+		<!-- CSS -->
+        <link rel="stylesheet" type="text/css" href='{% static "files_css/style.css" %}'>
+
+        <title>DJANGO</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 class="my-title">Welcome on the main page {{prenom}}</h1>
+            <em>The date and time are : {{date}} and {{time}}</em>
+            <img src="../static/files_img/logo_sonia.png" alt="logo de l'auteur: Sonia Devint">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/homepage/">Home page</a> 
+                    </li>
+                    <li>
+                        <a href="/learner/">Learner</a> 
+                    </li>
+                    <li>
+                        <a href="/session/">Session</a> 
+                    </li>
+                    <li>
+                        <a href="/classroom/">Classroom</a> 
+                    </li>
+                    <li>
+                        <a href="/course/">Course</a> 
+                    </li>
+                    <li>
+                        <a href="/inscription/">Inscription</a> 
+                    </li>
+                    <li>
+                        <a href="/teacher/">Teacher</a> 
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+
+
